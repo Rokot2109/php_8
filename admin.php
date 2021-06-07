@@ -1,7 +1,7 @@
 <?php
 include "db.php";
 $session = session_id();
-// if (!is_admin()) die();
+if (!is_admin()) die();
 // var_dump($_SESSION)['login'];
  
 

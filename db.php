@@ -44,7 +44,7 @@ function get_user()
 
 function is_admin()
 {
-    return $_SESSION['login' == 'admin'];
+    return ($_SESSION['login'] == 'admin');
 }
 
 function auth($login, $pass)
